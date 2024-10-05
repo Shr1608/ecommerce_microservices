@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://shivani:123@localhost:27017/customer?authSource=admin&authMechanism=SCRAM-SHA-256
+#      host: localhost
+#     port: 27017
+#     username: shivani
+#     password: 123
+#     authentication-database: admin
+#     database: customer
+
+server:
+  port: 8090
